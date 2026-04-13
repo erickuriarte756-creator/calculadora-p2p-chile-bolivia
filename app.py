@@ -74,9 +74,9 @@ if datos and datos["clp"] and datos["bob"]:
     # Entrada del usuario (siempre en CLP)
     monto_clp = st.number_input(
         "Cantidad a enviar desde Chile (CLP):",
-        min_value=10_000,
+        min_value=1_000,
         value=500_000,
-        step=10_000,
+        step=1_000,
         format="%d"
     )
 
